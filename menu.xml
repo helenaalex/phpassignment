@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menulist>
+  <menu category="Russian">
+    <dish>
+        <title>Borscht</title>
+        <ingredients>Ingredinets: meet, carrots, beetroot, cabage, onions and potatoes.</ingredients>
+        <comments>
+            Borscht is a beet soup that originated in the Ukraine and was quickly adopted as a Russian specialty as well. It can be served hot or cold, and is best served with a dollop of fresh sour cream on top.
+        </comments>
+        <description>
+            Borscht is a sour soup common in Eastern Europe and Northern Asia. In English, the word "borscht" is most often associated with the soup's variant of Ukrainian origin, one of the most famous dishes of Ukrainian cuisine, made with beetroots as one of the main ingredients, which give the dish its distinctive red color.
+        </description>
+        <price>12.00 Eur</price>
+        <image>Borscht.jfif</image>
+    </dish>
+    <dish>
+        <title>Pirozhki</title>
+        <ingredients>Ingredients: potatoes, meat, cabage or potatoes.</ingredients>
+        <comments>
+           These little baked or fried puff pastries are packed full of potatoes, meat, cabbage, or cheese. The stuffed pockets are popular all-around Russia, and Ukraine.
+        </comments>
+        <description>
+            Inspired by Russian pirozhki, these "small pies" envelop a savory cheese and beef filling in a pocket of pillowy soft dough enriched with sour cream, butter, and eggs. We love them served hot from the oven as an appetizer, or alongside soup or salad for a more substantial meal. They can also be enjoyed at room temperature for an easy on-the-go snack or quick meal.
+        </description>
+        <price>2.00 Eur/piece</price>
+        <image>Pirozhki.jfif</image>
+    </dish>
+    <dish>
+        <title>Blini</title>
+        <ingredients>Ingredients: fillings: jam, cheese, sour cream, caviar, onions, or even chocolate syrup.</ingredients>
+        <comments>
+           Blini is a wheat pancake rolled with a variety of fillings. It is Russia's equivalent to a crepe.
+        </comments>
+        <description>
+            A blini (sometimes spelled bliny) (Russian: блины pl., diminutive: блинчики, blinchiki) (Ukrainian: млинці, налисники pl., diminutive: млинчики, mlynchiki) or, sometimes, blin (more accurate as a single form of the noun), is a Russian and Ukrainian pancake traditionally made from wheat or (more rarely) buckwheat flour and served with smetana, tvorog, butter, caviar and other garnishes. Blini are among the most popular and most-eaten dishes in Russia.
+        </description>
+        <price>1.00 Eur/piece</price>
+        <image>Blini.jfif</image>
+    </dish>    
+  </menu>
+  <menu category="Moldavian">
+    <dish>
+        <title>Pirjoale</title>
+        <ingredients>Ingredients: lamb, pork, beef, or a combination of the three.</ingredients>
+        <comments>
+            Pârjoale are popular Moldovan and Romanian meat patties and meatballs.These patties or balls are rolled in breadcrumbs and deep-fried in hot oil, keeping the meat tender and juicy.
+        </comments>
+        <description>
+             Meatballs made from lamb, pork, beef, or a combination of the three. The meat is usually combined with garlic, eggs, and fresh herbs such as dill, thyme, and parsley. Pârjoale are typically served on rye bread with some whole-grain mustard.
+        </description>
+        <price>15.00 Eur</price>
+        <image>Pirjoale.jpg</image>
+    </dish>
+    <dish>    
+        <title>Zeama</title>
+        <ingredients>Ingredients: homemade chicken broth</ingredients>
+        <comments>
+            Zeama is a traditional Moldovan soup that is also known as the ultimate hangover cure. It is prepared with a smaller whole chicken, water, thin homemade egg noodles (tăiței de casă), and a variety of finely chopped vegetables and herbs.
+        </comments>
+        <description>
+            The soup usually contains carrots, onions, sweet peppers, leeks, tomatoes, and potatoes, and it is typically flavored with pepper, salt, and a handful of aromatic herbs such as parsley, dill, thyme, lovage, or celery leaves. Traditionally, the broth is made sour with the addition of borș acru (fermented wheat bran juice), lemon juice, or zeamă de varză acră (sauerkraut juice).
+        </description>
+        <price>15.00 Eur</price>
+        <image>Zeama.jpg</image>
+    </dish>
+    <dish>
+        <title>Placinta</title>
+        <ingredients>Ingredients: a thin cake consisting of flour, water, eggs, milk, yeast, and a pinch of salt.</ingredients>
+        <comments>
+             A great variety of fillings can be used for the stuffing, including branza cheese, sweet cheese, mashed potatoes, shredded cabbage, apples, jams, and sour cherries, to name a few. Plăcintă’s texture and consistency can range from light and fluffy to doughy and crispy, resembling a flatbread.
+        </comments>
+        <description>
+            Plăcintă, from the Latin word placenta which means flat cake, is a traditional Romanian fried pastry or a thin cake consisting of flour, water, eggs, milk, yeast, and a pinch of salt. This fried or deep-fried pastry is enjoyed warm, and it is usually stuffed with a sweet or savory filling.
+        </description>
+        <price>5.00 Eur/piece</price>
+        <image>Placinta.jpg</image>
+    </dish>    
+  </menu>
+  <menu category="French">
+    <dish>
+        <title>Soupe à l’oignon</title>
+        <ingredients>Ingredients: a soup made of onions and beef stock, usually served with croutons and melted cheese on top</ingredients>
+        <comments>
+             The soup’s unique flavor comes from the caramelization of the onions, which often have brandy or sherry added during the slow-cooking process.
+        </comments>
+        <description>
+            This is a traditional French soup made of onions and beef stock, usually served with croutons and melted cheese on top. Dating back to Roman times, this was traditionally a peasant dish although the current version dates from the 18th century.
+        </description>
+        <price>13.00 Eur</price>
+        <image>Soupe à l’oignon.jpg</image>
+    </dish> 
+    <dish>
+        <title>Coq au vin</title>
+        <ingredients>Ingredients: chicken braised with wine, mushrooms, salty pork or bacon (lardons), mushrooms, onions, garlic and sometimes even a drop of brandy</ingredients>
+        <comments>
+             Although the name translates as ‘rooster in wine’ – the braising is ideal for tougher birds – the recipe usually uses chicken or capon. The wine is typically Burgundy, although regional variations of the dish exist across France that use local wines.
+        </comments>
+        <description>
+            This quintessential French food was popularized by Julia Child, becoming one of her signature dishes. The dish sees chicken braised with wine, mushrooms, salty pork or bacon (lardons), mushrooms, onions, garlic and sometimes even a drop of brandy.
+        </description>
+        <price>23.00 Eur</price>
+        <image>Coq au vin.jpg</image>
+    </dish>
+    <dish>
+        <title>Cassoulet</title>
+        <ingredients>Ingredients: white beans stewed slowly with meat.</ingredients>
+        <comments>
+             The dish typically uses pork or duck but can include sausages, goose, mutton or whatever else the chef has lying around.
+        </comments>
+        <description>
+            Cassoulet is a comfort dish of white beans stewed slowly with meat. This peasant dish originates from southern France and is popular in Toulouse, Carcassonne, and Castelnaudary.
+        </description>
+        <price>21.00 Eur</price>  
+        <image>Cassoulet.jpg</image>
+    </dish>    
+  </menu>
+</menulist>

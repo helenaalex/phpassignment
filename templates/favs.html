@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% set page_title = 'Favourites' %}
+
+{% block content %}
+<section class="favs_list">
+    <div class="fav">
+        <h1 class="title">My Favourites</h1>
+        <p class="err">{{ info.error }}</p>
+        <div class="list">
+            <p>{{ savedvalues.favs }}</p>
+            {% for dish in favs %}
+            <span>{{ dish }} <tab></tab> <a href="descr.php?dish={{ dish }}">View description</a>
+            <form class="fav" action="favs.php" method="post">
+                <input type="hidden" name="del" value="{{ dish }}">
+                <button class="button" id="del" type="submit"><i class="material-icons">delete</i></button></form></span><br><br>
+            {% endfor %}
+            </div>
+
+        <p class="margin">You can e-mail your list of favourite dishes</p>
+        <p class="success">{{ savedvalues.success }}</p>
+        <p class="err">{{ errors.error }}</p>
+        <form action="favs.php" method="post">
+            <div>
+                <p>E-Mail</p>
+                <input type="email" id="email" name="email" class="input"
+                       value ="{{ savedvalues.email }}" required>
+                <p class="err">{{ errors.emailErr }}</p>
+            </div>
+            <div class="button">
+                <p><button type="submit" class="btn">Send Favourites</button></p>
+            </div>
+        </form>
+
+        <div class="btn">
+            <form class="return" action="index.php">
+                <button class="btn" type="submit">Go to Home</button>
+            </form>
+            <form class="return" action="menu.php">
+                <button class="btn" type="submit">Go to Menu</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

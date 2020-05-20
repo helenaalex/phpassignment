@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% set page_title = 'Contact Form' %}
+
+{% block content %}
+<section class="contact">
+    <div class="main">
+        <h1 class="title">{{ page_title }}</h1>
+        <p class="err">{{ errors.error }}</p>
+        <p class="success">{{ savedvalues.success }}</p>
+        <p>If you want to book a table, you have a query or a complaint, please, use the form below to contact us.
+            We will get back to you soon. Thank you!</p>
+        <form action="contact.php" method="post">
+            <div class="row">
+                <input type="radio" id="res" name="subject" value="Reservation"
+                       {% if savedvalues.subject =="Reservation" %} checked {% endif %}>
+                <label for="res">Reservation</label>
+                <input type="radio" id="query" name="subject" value="Query"
+                       {% if savedvalues.subject =="Query" %} checked {% endif %}>
+                <label for="query">Query</label>
+                <input type="radio" id="com" name="subject" value="Complaint"
+                       {% if savedvalues.subject =="Complaint" %} checked {% endif %}>
+                <label for="com">Complaint</label>
+                <p class="err">{{ errors.subjectErr }}</p>
+            </div>
+            <div class="row">
+                <p>Your Name</p>
+                <input type="text" id="name" name="name" class="input"
+                       value ="{{ savedvalues.name }}" required>
+                <p class="err">{{ errors.nameErr }}</p>
+            </div>
+            <div class="row">
+                <p>Phone Number</p>
+                <input type="tel" id="tel" name="tel" class="input" placeholder="+356-1111-2222"
+                       pattern="^[0-9-+\s()]*$"
+                       value ="{{ savedvalues.tel }}" required>
+                <p class="err">{{ errors.telErr }}</p>
+            </div>
+            <div class="row">
+                <p>E-Mail</p>
+                <input type="email" id="email" name="email" class="input"
+                       value ="{{ savedvalues.email }}" required>
+                <p class="err">{{ errors.emailErr }}</p>
+            </div>
+            <div class="row">
+                <p>Message</p>
+                <textarea rows="10" cols="40" name="message" class="input"
+                >{{ savedvalues.mes }}</textarea>
+            </div>
+            <div class="button">
+                <p><button type="submit" class="btn">Send Message</button></p>
+            </div>
+        </form>
+    </div>
+</section>
+{% endblock %}

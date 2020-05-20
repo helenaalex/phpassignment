@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% set page_title = 'Dish Description' %}
+
+{% block content %}
+
+<span>{{dish.title}}</span>
+<form class="fav" action="favs.php" method="post">
+      <input type="hidden" name="fav" value="{{dish.title}}">
+        <button class="button" id="fav" type="submit"><i class="material-icons">favorite</i></button>
+</form>
+<p>{{dish.description}}</p>
+{% endblock %}
