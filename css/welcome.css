@@ -1,0 +1,40 @@
+#presentation
+{
+  color: white;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0,0.5 );
+  width: 800px;
+  height: 120px;
+  margin: auto;
+  font-style:italic;
+  font-family:times,serif;
+  text-align: center;
+}
+
+
+#menu
+{
+  width: 200px;
+  list-style: none ;
+  margin: 00;
+  padding: 20;
+}
+
+#menu li 
+{
+  
+  margin-bottom: 2px ;
+}
+
+#menu li a 
+{
+  display: block ;
+  background: brown;
+  color: white ;
+  font: 1.2em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 6px 0 ;
+}
+

@@ -1,0 +1,50 @@
+
+
+table
+{   position: absolute;
+    left: 10%;
+    top: 35%;
+    width: 450px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-collapse: collapse;
+}
+    
+
+#tableHours tbody td
+{
+    color: black;   
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 6px;
+    width: 130px;
+}
+   
+ #tableHours caption
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    
+    font-size: 50px;
+}
+
+#map
+{
+    position: absolute;
+    left: 60%;
+    top: 38%;
+}
+   
+#captionmap
+{
+    font-weight: bold;
+    font-size: 27px;
+    position: absolute;
+    left: 53%;
+    top: 25%; 
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    width: 600px;
+    height: 400px;
+
+}
