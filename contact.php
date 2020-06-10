@@ -7,7 +7,7 @@
         $_SESSION['subjectErr'] = $_SESSION['nameErr'] = $_SESSION['telErr'] = $_SESSION['emailErr'] = "";
         $subject = $name = $tel = $email = $mes = "";
         $_SESSION['valid'] = true;
-        $subject = $savedvalues['subject'] = valsubject($_POST["subject"]);
+        $subject = $savedvalues['subject'] = valsubject($_POST["subject"]); 
         $name = $savedvalues['name'] = valname($_POST["name"]);
         $tel = $savedvalues['tel'] = valtel($_POST["tel"]);
         $email = $savedvalues['email'] = valemail($_POST["email"]);
