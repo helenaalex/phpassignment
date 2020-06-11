@@ -1,0 +1,124 @@
+body
+{
+  background-image: url("img/restau.png");
+  background-size: cover;
+}
+
+section {
+    background:#f2f2f2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    margin-bottom: 30px;
+    padding: 25px;
+    font-family: 'Nixie One','Raleway',"Helvetica Neue", "Helvetica", Helvetica, Arial;
+    color: #333333;
+}
+
+section.contact {
+    background-image: url('img/back.png');
+}
+
+section.favs_list {
+    background-image: url('img/fav.jpeg');
+}
+
+div.main {
+    background:#f2f2f2;
+    margin: auto;
+    width: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+h1.title {
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+input.input {
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button.btn {
+    display: inline-block;
+    background: #444;
+    border-radius: 20px;
+    line-height: 1;
+    padding: 10px 30px 11px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p.err {
+    color: red;
+    font-size: 0.8em;
+    font-style: italic;
+}
+p.success {
+    color: maroon;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+div.fav {
+    width: 70%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+div.btn {
+    padding: 20px 0px;
+}
+
+form.return {
+    display: inline;
+}
+
+form.fav {
+    display: inline-block;
+    left: 5px;
+    position: relative;
+}
+
+button.button {
+    font-family: Material Icons;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#fav {
+    color: red;
+}
+
+i.material-icons {
+     font-size: 1.3em;
+
+}
+
+div.list {
+    margin: 10px 0px;
+}
+
+tab {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+p.margin {
+    margin-top: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
